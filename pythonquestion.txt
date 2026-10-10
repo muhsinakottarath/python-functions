@@ -1,0 +1,218 @@
+1)which module in python support regular expreesions?
+
+	a)re  b)regex c)pyregex d)none
+
+2)which of the following creates a pattern object?
+	a)re.create(str)
+	b)re.regex(str)
+	c)re.compile(str)
+	d)re.assemble(str)
+3)What is the output of the code shown below?
+
+	re.split('[a-c]', '0a3B6', re.I)
+	a) Error
+	b) [‘a’, ‘B’]
+	c) [‘0’, ‘3B6’]
+	d) [‘a’]				
+
+
+4)To open a file c:\scores.txt for reading, we use
+	a) infile = open(“c:\scores.txt”, “r”)
+	b) infile = open(“c:\\scores.txt”, “r”)
+	c) infile = open(file = “c:\scores.txt”, “r”)
+	d) infile = open(file = “c:\\scores.txt”, “r”)
+						
+
+5)Which of the following is not a valid mode to open a file?
+	a) ab
+	b) rw
+	c) r+
+	d) w+
+	
+6)How do you close a file object (fp)?
+	a) close(fp)
+	b) fclose(fp)
+	c) fp.close()
+	d) fp.__close__()
+
+7) How do you get the name of a file from a file object (fp)?
+	a) fp.name
+	b) fp.file(name)
+	c) self.__name__(fp)
+	d) fp.__name__()
+
+8) Which of the following is not a valid attribute of a file object (fp)?
+	a) fp.name
+	b) fp.closed
+	c) fp.mode
+	d) fp.size
+
+9). _____ represents an entity in the real world with its identity and behaviour.
+	
+	a) A method
+	b) An object
+	c) A class
+	d) An operator
+
+10)	What is setattr() used for?
+	
+	a) To access the attribute of the object
+	b) To set an attribute
+	c) To check if an attribute exists or not
+	d) To delete an attribute
+
+11) What is the output of the following code?
+
+	class fruits:
+	    def __init__(self, price):
+		self.price = price
+	obj=fruits(50)
+	 
+	obj.quantity=10
+	obj.bags=2
+	 
+	print(obj.quantity+len(obj.__dict__))
+
+	a) 12
+	b) 52
+	c) 13
+	d) 60
+		
+12)The assignment of more than one function to a particular operator is _______
+	a) Operator over-assignment
+	b) Operator overriding
+	c) Operator overloading
+	d) Operator instance
+13)Which of the following is not a class method?
+	a) Non-static
+	b) Static
+	c) Bounded
+	d) Unbounded
+
+14)What is the use of duck typing?
+
+	a) More restriction on the type values that can be passed to a given method
+	b) No restriction on the type values that can be passed to a given method
+	c) Less restriction on the type values that can be passed to a given method
+	d) Makes the program code smaller
+		
+15)	Which of these is not a fundamental features of OOP?
+	a) Encapsulation
+	b) Inheritance
+	c) Instantiation
+	d) Polymorphism
+
+16)What is the output of the following?
+
+	k = [print(i) for i in my_string if i not in "aeiou"]
+
+	a) prints all the vowels in my_string
+	b) prints all the consonants in my_string
+	c) prints all characters of my_string that aren’t vowels
+	d) prints only on executing print(k)
+
+17)What is the output of print(k) in the following?
+
+	k = [print(i) for i in my_string if i not in "aeiou"]
+	print(k)
+
+	a) all characters of my_string that aren’t vowels
+	b) a list of Nones
+	c) list of Trues
+	d) list of Falses
+		ans)b
+
+18) What is the output of the following?
+
+	my_string = "hello world"
+	k = [(i.upper(), len(i)) for i in my_string]
+	print(k)
+
+	a) [(‘HELLO’, 5), (‘WORLD’, 5)].
+	b) [(‘H’, 1), (‘E’, 1), (‘L’, 1), (‘L’, 1), (‘O’, 1), (‘ ‘, 1), (‘W’, 1), (‘O’, 1), (‘R’, 			1), (‘L’, 1), (‘D’, 1)].
+	c) [(‘HELLO WORLD’, 11)].
+	d) none of the mentioned
+		
+
+19)What is the output when following code is executed ?
+
+    >>> str1 = 'hello'
+
+    >>> str2 = ','
+
+    >>> str3 = 'world'
+
+    >>> str1[-1:]
+
+	a) olleh
+	b) hello
+	c) h
+	d) o
+20) What arithmetic operators cannot be used with strings ?
+	a) +
+	b) *
+	c) –
+	d) All of the mentioned
+
+21)    >>>print (r"\nhello")
+
+	a) a new line and hello
+	b) \nhello
+	c) the letter r and then hello
+	d) error
+
+22)What will be the output?
+
+    >>>t=(1,2,4,3)
+
+    >>>t[1:3]
+
+	a) (1, 2)
+	b) (1, 2, 4)
+	c) (2, 4)
+	d) (2, 4, 3)
+		ans)c
+
+23) What will be the output?
+
+    >>>t = (1, 2)
+
+    >>>2 * t
+
+	a) (1, 2, 1, 2)
+	b) [1, 2, 1, 2].
+	c) (1, 1, 2, 2)
+	d) [1, 1, 2, 2].
+
+24) What is the output of the following?
+
+	elements = [0, 1, 2]
+	def incr(x):
+	    return x+1
+	print(list(map(elements, incr)))
+
+	a) [1, 2, 3].
+	b) [0, 1, 2].
+	c) error
+	d) none of the mentioned
+
+		
+25) When is the finally block executed?
+	a) when there is no exception
+	b) when there is an exception
+	c) only if some condition that has been specified is satisfied
+	d) always
+
+
+
+*********************practical****************************************
+26)porogram to print  first recursive charater in a given string 
+	"ABCAd" will give the output A
+
+27)Create an Bank application Program Using OOP concept,have minimum functionality deposit,withradwal and balance enquiry
+
+28)	program to validate all email_id 
+		1)should contain @any mail
+		or 
+	program to validate phone number  
+		1)phone number shuld be starts with 7,8 or 9 only  
